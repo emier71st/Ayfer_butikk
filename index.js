@@ -1,4 +1,10 @@
-
+ayfer_butik_new_site/
+  ├── pages/
+      └── index.js
+  ├── public/
+  ├── styles/
+  ├── tailwind.config.js
+  ├── package.json
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
