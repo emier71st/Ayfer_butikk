@@ -1,10 +1,3 @@
-ayfer_butik_new_site/
-  ├── pages/
-      └── index.js
-  ├── public/
-  ├── styles/
-  ├── tailwind.config.js
-  ├── package.json
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
@@ -26,7 +19,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          {/* Example Product Section */}
+          {/* Ürün bölümü örneği */}
           <div className={styles.card}>
             <h2>Elbise &rarr;</h2>
             <p>Şık ve rahat elbiseler</p>
@@ -55,4 +48,4 @@ export default function Home() {
       </main>
     </div>
   )
-}
+    }
